@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+                                     <!-- Tailwind CDN -->
+
+         <script src="https://cdn.tailwindcss.com"></script>
+
+                                <!--daisyUI CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="bg-yellow-50">
+        <nav class="p-4 flex gap-3 md:flex md:justify-between md:items-center md:py-5 md:w-10/12 mx-auto">
+            <button id="button-blog" class="bg-lime-300 px-6 py-2 rounded-lg font-semibold hidden">Blog</button>
+            <button id="button-home" class="bg-lime-300 px-6 py-2 rounded-lg font-semibold">Home</button>
+            <div class="flex items-center my-2 md:my-0 font-semibold">
+                  <img class="mr-3 w-10" src="assets/logo.png"alt="">
+                  <h2>Donate Bangladesh </h2>
+            </div>
+            <div class="flex items-center">
+                <img class="mr-3 w-10" src="assets/coin.png" alt="">
+                <div>50000</div>
+                <div class="ml-2">BDT</div>
+
+            </div>
+
+        </nav>
+    </header>
+     <br>
+     <br>
+             <h1 class="text-center font-bold text-5xl">FAQ</h1>
+
+             <section class="m-4 md:m-0 md:w-8/12 md:mx-auto">
+                <div class="collapse collapse-arro bg-base-200">
+                    <input type="radio" name="my-accordion" checked="checked">
+                    <div class="collapse-title text-xl font-medium">What is DOM..?</div>
+                    <div class="collapse-content">
+                        <p>The DOM (Document Object Model) is a programming interface for web
+                            documents. It represents the structure of a document as a tree of
+                            objects, where each node is an element, attribute, or text from the
+                            HTML or XML document. JavaScript can be used to interact with and
+                            manipulate these nodes.</p>
+                    </div>
+
+                </div>
+
+             </section>
+    <script src="js/blog.js"></script>
+    <script src="js/main.js"></script>
+     <script src="/js/rood.js"></script>
+</body>
+</html>
